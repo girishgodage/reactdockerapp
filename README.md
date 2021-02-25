@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# React Docker app 
+
+In this repository, we run sample react app in docker with the help nginx webserver.
+
+To Build docker image :
+
+```
+    docker build -t reactdocker .
+```
+
+To run the docker container
+
+```
+    docker run -it -p 8000:80 --name reactdockerized reactdocker
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
